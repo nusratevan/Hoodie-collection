@@ -1,0 +1,483 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search-box{
+    margin-left:35% ;
+    margin-top: -10px;
+}
+.fa-sync-alt{
+    margin-left: 90px;
+    font-size:24px
+}
+.fa-heart{
+    margin-left: 50px;
+    font-size:24px
+}
+.navbar-brand{
+    margin-left: 100px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px  rgb(228, 117, 150);
+    font-family: Comic Sans MS;
+    color: rgb(221, 39, 94);
+}
+
+.input_box{
+    width: 400px;
+    border-color: rgb(207, 205, 205);
+    border-radius: 5px;
+}
+.search-btn{
+    border-color: rgb(207, 205, 205);
+    margin-left: -7px;
+    width: 60px;
+    background-color: rgb(240, 166, 116);
+    border-radius: 5px;
+}
+.nav-link{
+    font-size: 22px;
+    color: black;
+    text-shadow: 2px 2px 3px gray;
+}
+section{
+    width: 100%;
+    background-color: rgb(102, 101, 102);
+    display: flex;
+}
+section img{
+    height: 500px;
+}
+.right{
+    margin-left: 450px;
+}
+.cover{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.cover p:nth-child(1){
+    color: white;
+    font-size: 50px;
+    font-family: Comic Sans MS;
+}
+.cover p:nth-child(2){
+    color: rgb(85, 19, 46);
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+.cover p:nth-child(3){
+    color:   rgb(85, 19, 46);
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+.shop{
+    background-color: rgb(21, 32, 80);
+    width: 100px;
+    height: 50px;
+    border-radius:20px ; 
+    border: none;  
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.shop:hover{
+    background-color: black;
+}
+.information{
+    width: 90%;
+    height: 100px;
+    border: 2px solid rgb(221, 215, 215);
+    margin:20px auto;
+    display: flex;
+    margin-bottom:40px ;
+}
+.fa-truck{
+    font-size:36px;
+    margin:30px 30px;
+    color: rgb(252, 112, 70);
+}
+.detailes p:nth-child(1){
+    font-weight: bold;
+    margin-top: 20px;
+}
+.detailes p:nth-child(2){
+    font-size: 15px;
+    line-height: 1px;
+}
+.material-icons{
+    font-size:36px;
+    color: rgb(252, 112, 70);
+    margin:30px 40px;
+    margin-left: 80px;
+}
+.fa-money{
+    font-size:36px;
+    color: rgb(252, 112, 70);
+    margin:30px 40px;
+    margin-left: 80px;
+}
+.fa-reply{
+    font-size:36px;
+    color: rgb(252, 112, 70);
+    margin:30px 40px;
+    margin-left: 80px;
+}
+.fa-coins{
+    font-size:36px;
+    color: rgb(252, 112, 70);
+    margin:30px 40px;
+    margin-left: 80px;
+}
+b{
+    font-size: 30px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: black;  
+}
+h3{
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.hr{
+    width: 90%;
+    margin: auto;
+}
+.fa-chevron{
+    margin-left: 1080px;
+    margin-top: 10px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+    margin-right: -3px;
+    box-shadow: 2px 2px 10px black;
+    border: none;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px gray;
+    transform: scale(1.05);
+    transition: .5s;
+    
+}
+.card img{
+    width: 250px;
+    height: 250px;
+}
+.model{
+    width:750px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow : 2px 2px 5px black ;
+}
+.model img{
+    width: 750px;
+    height: 400px;
+}
+@media(max-width:1029px){
+    .information{
+        width: 95%;
+    }
+    .search-box{
+        margin-top: 10px;
+        margin-left:250px ;
+    }
+    .fa-heart{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .navbar-brand{
+        margin: auto;
+        margin-left:20px ;
+    }
+    section{
+        width:100% ;
+    }
+    .cover{
+        margin: auto;
+        margin-left: 20px;
+    }
+    .right{
+        margin: auto;
+        margin-left: 50px;
+    }
+    .material-icons{
+        margin-left: 5px;
+    }
+    .fa-money{
+        margin-left: 5px;
+    }
+    .fa-reply{
+        margin-left: 5px;
+    }
+    .fa-coins{
+        margin-left: 5px;
+    }
+    .card{
+        margin: auto;
+        margin-left: 55px;
+        margin-bottom: 7px;
+    }
+    
+}
+
+@media(max-width:1024px){
+
+    section{
+        width:100% ;
+    }
+    section img{
+        height: 400px;
+    }
+    .cover{
+        margin: auto;
+        line-height: 25px;
+    }
+    .cover p:nth-child(1){
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .cover p:nth-child(2){
+        font-size: 20px;
+    }
+    .cover p:nth-child(3){
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .right{
+        margin: auto;
+    }
+    .shop{
+        width: 50px;
+        height: 25px;
+        border-radius:20px ; 
+        font-size: 7px;
+        margin-left: 40px;
+    }
+    .search-box{
+    margin-left:10% ;
+    margin-top: 10px;
+    }
+    .input_box{
+        width: 400px;
+        border-color: rgb(207, 205, 205);
+        border-radius: 5px;
+    }
+    .search-btn{
+        border-color: rgb(207, 205, 205);
+        margin-left: -7px;
+        width: 60px;
+        background-color: rgb(240, 166, 116);
+        border-radius: 5px;
+    }
+    .fa-sync-alt{
+        margin-right:20px;
+        font-size:12px
+    }
+    .fa-heart{
+        margin-left: -10px;
+        font-size:12px
+    }
+    .navbar-brand{
+        font-size: 15px;
+        margin: auto 10px;
+    }
+    .nav-link{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .information{
+        width: 90%;   
+        height: 80px;
+    }
+    .fa-truck{
+        font-size:18px;
+        margin:30px 15px;
+    }
+    .detailes p:nth-child(1){
+        font-size: 10px;
+    }
+    .detailes p:nth-child(2){
+        font-size: 8px;
+    }
+    .material-icons{
+        font-size:18px;
+        margin:30px 15px;
+    }
+    .fa-money{
+        font-size:18px;
+        margin:30px 15px;
+    }
+    .fa-reply{
+        font-size:18px;
+        margin:30px 15px;
+    }
+    .fa-coins{
+        font-size:18px;
+        margin:30px 15px;
+    }
+    b{
+        font-size: 20px;
+    }
+    .card{
+        margin-left: 80px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+@media(max-width:736px){
+    .input_box{
+        width: 150px;
+        height: 25px;
+    }
+    .search-btn{
+        width: 40px;
+        height: 25px;   
+    }
+    .nav-link{
+        font-size: 9px;
+    }
+    section{
+        width: 100%;
+    }
+    section img{
+        height: 200px;
+    }
+    .cover p:nth-child(2){
+        margin-left: 40px;
+    }
+    .information{
+        width: 90%;   
+    }
+    .fa-truck{
+        font-size:15px;
+        margin:30px 10px;
+    }
+    .detailes p:nth-child(1){
+        font-size: 8px;
+    }
+    .detailes p:nth-child(2){
+        font-size: 4px;
+    }
+    .material-icons{
+        font-size:15px;
+        margin:30px 10px;
+    }
+    .fa-money{
+        font-size:15px;
+        margin:30px 10px;
+    }
+    .fa-reply{
+        font-size:15px;
+        margin:30px 10px;
+    }
+    .fa-coins{
+        font-size:15px;
+        margin:30px 10px;
+    }
+    b{
+        font-size:15px;
+        margin-left: 18px;
+    }
+    h3{
+        font-size:15px;
+        margin-left: 18px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .card img{
+        width: 100px;
+        height: 100px;
+    }
+    .model{
+        width: 300px;
+        height: 200px;
+    }
+    .model img{
+        width: 300px;
+        height: 200px;
+    }
+    .fa-chevron{
+        margin: auto;
+        margin-right: 18px;
+    }
+}
+@media(max-width:667px){
+    section{
+        width: 100%;
+    }
+    .cover{
+        margin: auto;
+        line-height: 25px;
+    }
+    .cover p:nth-child(1){
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .cover p:nth-child(2){
+        font-size: 13px;
+        margin-left: 19px;
+    }
+    .cover p:nth-child(3){
+        font-size: 13px;
+        line-height: 1px;
+    }
+    .shop{
+        font-size: 7px;
+        height: 20px;
+        width: 50px;
+        margin: auto;
+        margin-left: 15px;
+    }
+    .fa-sync-alt{
+        margin-left:25px;
+    }
+    .fa-heart{
+        margin-left: px;
+    }
+    .information{
+        width: 95%;
+    }
+    .detailes p:nth-child(1){
+        font-size: 7px;
+        
+    }
+    .detailes p:nth-child(2){
+        font-size: 4px;
+    }
+    .card{
+        margin: auto;
+        margin-left: 15px;
+    }
+}
+@media(max-width:640px){
+    .cover p:nth-child(1){
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .cover p:nth-child(2){
+        font-size: 10px;
+        margin-left: 19px;
+    }
+    .cover p:nth-child(3){
+        font-size: 10px;
+        line-height: 1px;
+    }
+    .card{
+        margin-bottom: 5px;
+        margin-left:px ;
+    }
+}
+
