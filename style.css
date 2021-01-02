@@ -4,14 +4,14 @@
 }
 .search-box{
     margin-left:35% ;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 .fa-sync-alt{
-    margin-left: 90px;
+    margin-left: 40px;
     font-size:24px
 }
 .fa-heart{
-    margin-left: 50px;
+    margin-left: 10px;
     font-size:24px
 }
 .navbar-brand{
@@ -107,7 +107,7 @@ section img{
     font-size: 15px;
     line-height: 1px;
 }
-.material-icons{
+.headset{
     font-size:36px;
     color: rgb(252, 112, 70);
     margin:30px 40px;
@@ -180,6 +180,11 @@ h3{
     width: 750px;
     height: 400px;
 }
+footer{
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
 @media(max-width:1029px){
     .information{
         width: 95%;
@@ -207,7 +212,7 @@ h3{
         margin: auto;
         margin-left: 50px;
     }
-    .material-icons{
+    .headset{
         margin-left: 5px;
     }
     .fa-money{
@@ -281,7 +286,7 @@ h3{
         font-size:12px
     }
     .fa-heart{
-        margin-left: -10px;
+        margin-left: 15px;
         font-size:12px
     }
     .navbar-brand{
@@ -332,6 +337,14 @@ h3{
         font-size: 20px;
     }
 }
+@media(max-width:568px){
+    section{
+        width: 100%;
+    }
+    .information{
+        width: 95%;
+    }
+}
 @media(max-width:736px){
     .input_box{
         width: 150px;
@@ -339,7 +352,7 @@ h3{
     }
     .search-btn{
         width: 40px;
-        height: 25px;   
+           
     }
     .nav-link{
         font-size: 9px;
@@ -348,13 +361,11 @@ h3{
         width: 100%;
     }
     section img{
-        height: 200px;
+        height: 150px;
     }
-    .cover p:nth-child(2){
-        margin-left: 40px;
-    }
-    .information{
-        width: 90%;   
+    .shop{
+        font-size: 5px;
+        margin-left: 15px;
     }
     .fa-truck{
         font-size:15px;
@@ -434,21 +445,11 @@ h3{
         font-size: 13px;
         line-height: 1px;
     }
-    .shop{
-        font-size: 7px;
-        height: 20px;
-        width: 50px;
-        margin: auto;
-        margin-left: 15px;
-    }
     .fa-sync-alt{
         margin-left:25px;
     }
     .fa-heart{
         margin-left: px;
-    }
-    .information{
-        width: 95%;
     }
     .detailes p:nth-child(1){
         font-size: 7px;
@@ -478,6 +479,15 @@ h3{
     .card{
         margin-bottom: 5px;
         margin-left:px ;
+    }
+    .fa-heart{
+        margin-left: -2px;
+    }
+    .material-icons{
+        margin-left: -10px;
+    }
+    .headset{
+        margin-left: 5px;
     }
 }
 
